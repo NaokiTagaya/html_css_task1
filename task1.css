@@ -1,0 +1,535 @@
+/* 共通部品*/
+.body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  display: block;
+}
+
+div {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.content-width {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.linkbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f79314;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+
+.hover-opacity {
+  transition: opacity 0.2s;
+}
+
+.hover-opacity:hover {
+  opacity :0.7;
+}
+
+/* ヘッダー部分*/
+.potepancamp-header {
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: block;
+}
+
+.potepancamp-logo {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  border: 0;
+}
+
+.header-ul-listitem {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-ul-listitem li {
+  margin-left: 30px;
+  display: list-item;
+}
+
+.header-ul-listitem span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-ul-listitem span:first-child {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-ul-listitem span:last-child {
+  font-size: 10px;
+  font-family: 'Noto Sans JP', sans-serif; 
+}
+
+.header-button-outline {
+  margin-left: 20px;
+}
+
+.header-button {
+  width: 150px;
+}
+
+.menu {
+  height: 40px;
+  font-size: 12px;
+}
+
+/* メイン部分*/
+.section-main {
+  padding-top: 190px;
+  padding-bottom: 28px;
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+  background-size: auto 100%;
+  background-position: right 0;
+  background-repeat: no-repeat;
+}
+
+.top-main {
+  position: relative;
+  max-width: 337px;
+}
+
+.h1 {
+  display: block;
+  font-weight: bold;
+}
+
+.potepancamp-logo-main img {
+  width: 100%;
+  height: auto;
+}
+
+.img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.main-text {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.7;
+  margin-top: 30px;
+  display: block;
+}
+
+.main-text span {
+  color: #f79314;
+}
+
+.main-button-a {
+  font-size: 16px;
+}
+
+.no1-image {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: -170px;
+}
+
+.no1-image img{
+  width: 154px;
+  height: 154px;
+  border: 0;
+  vertical-align: middle;
+}
+
+.survey-word {
+  color: #888;
+  font-size: 10px;
+  max-width: 512px;
+  padding-top: 132px;
+}
+
+.survey-word p {
+  line-height: 1.5;
+}
+
+.what-potepancamp {
+  background-color: #f79314;
+  padding-top: 45px;
+}
+
+.banner-for-students {
+  width: 100%;
+  margin-bottom: 50px;
+  border: 0;
+  vertical-align: middle;
+}
+
+.about-potepancamp {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  color: #fff;
+  width: 53%;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  display: block;
+  font-weight: bold;
+}
+
+.about-text span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.about-text p {
+  font-weight: 700;
+  margin-top: 15px;
+  line-height: 2.3;
+}
+
+.about-button {
+  width: 320px;
+}
+
+.about-button-design {
+  color: #f79314;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.about-button-design span:first-child {
+  letter-spacing: 4px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-button-design span:last-child {
+  font-size: 14px;
+}
+
+.potepancamp-features {
+  padding-top: 75px;
+  padding-bottom: 80px;
+  display: block;
+}
+
+.potepancamp-features-header {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.potepancamp-features-header::after {
+  content: '';
+  display: block;
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.features-header {
+  font-size: 46px;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+.features-header span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.features-header-second {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.features-header-second span {
+  font-family: 'Lato', sans-serif;
+}
+
+.features-contents {
+  margin-top: 110px;
+}
+
+.features-itemlist {
+  list-style: none;
+  display: block;
+  margin: 1em 0px;
+  padding-left: 40px;
+}
+
+.features-itemlist li {
+  background-color: #fcfaf5;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
+  display: list-item;
+}
+
+.itemlist-no {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -90px auto 0 auto;
+  background-color: #fcfaf5;
+  border-radius: 50%;
+  color: #f79314;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.itemlist-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -20px;
+  letter-spacing: 1px;
+}
+
+.itemlist-text {
+  font-size: 16px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  line-height: 2;
+  display: block;
+}
+
+.itemlist-text span {
+  color: #f79314;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.example-company {
+  background-color: #fff;
+  margin-top: 40px;
+  border-radius: 20px;
+  padding: 30px;
+  display: block;
+}
+
+.example-company-title {
+  display: inline-block;
+}
+
+.example-title-heading {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+  vertical-align: bottom;
+  line-height: 1;
+  margin: 1.33em 0px;
+}
+
+.example-company-title img {
+  margin-left: 10px;
+  width: 34px;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+
+.example-company-title::after {
+  content: '';
+  display: block;
+  border-bottom: solid 4px #f79314;
+  margin-top: 10px;
+}
+
+.example-company-img {
+  margin-top: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 40px;
+}
+
+.example-company-img li {
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: list-item;
+}
+
+.example-company-img img {
+  width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+
+.margin-li {
+  margin-top: 90px;
+}
+
+.peformance-data {
+  background-color: #fff;
+  padding: 40px 70px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.peformance-data-img {
+  margin: 0 -60px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.peformance-data-img li {
+  padding: 0 60px;
+  width: calc(100% / 3);
+  display: flex;
+}
+
+.peformance-data-img img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+.engineer-coment-list {
+  margin-top: 45px;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.engineer-box {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 0 15px;
+  width: calc(100% / 3);
+}
+
+.engineer-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.engineer-company-logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engineer-company-logo img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+.engineer-profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.engineer-profile img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.engineer-name {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.engineer-name span {
+  color: #f79314;
+  font-size: 14px;
+}
+
+.engineer-text::before {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 29px;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #f6f6f6;
+}
+
+.engineer-text {
+  position: relative;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.engineer-text p {
+  line-height: 1.5;
+  display: block;
+}
